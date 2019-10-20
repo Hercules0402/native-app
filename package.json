@@ -1,0 +1,35 @@
+{
+  "name": "native-app",
+  "version": "1.0.0",
+  "description": "This project allows to create a web app into a desktop app.",
+  "main": "index.js",
+  "module": "main.js",
+  "bin": {
+    "native-app": "bin/native-app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hercules0402/native-app.git"
+  },
+  "keywords": [
+    "native",
+    "desktop",
+    "elctron",
+    "wrapper",
+    "app",
+    "web",
+    "cli"
+  ],
+  "author": "Sébastien CORNUEL <sbastien.cornuel@gmail.com> (https://github.com/Hercules0402)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hercules0402/native-app/issues"
+  },
+  "homepage": "https://github.com/Hercules0402/native-app#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
