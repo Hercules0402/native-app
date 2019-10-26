@@ -99,3 +99,12 @@ public
 
 # TernJS port file
 .tern-port
+
+# Jetbrains folder
+.idea/
+
+# VSCode folder
+.vscode/
+
+# package.lock.json
+package-lock.json

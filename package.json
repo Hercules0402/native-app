@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This project allows to create a web app into a desktop app.",
   "main": "index.js",
-  "module": "main.js",
+  "module": "src/main.js",
   "bin": {
     "native-app": "bin/native-app"
   },
@@ -30,6 +30,11 @@
   },
   "homepage": "https://github.com/Hercules0402/native-app#readme",
   "dependencies": {
-    "esm": "^3.2.25"
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "esm": "^3.2.25",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "source-map-support": "^0.5.13"
   }
 }
