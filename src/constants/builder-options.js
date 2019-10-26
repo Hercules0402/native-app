@@ -1,0 +1,35 @@
+import {getArchitecture, getPlatform} from "../utils/system";
+import {CONSTANTS} from "./constants";
+
+export const BUILDER_OPTIONS = {
+  out: CONSTANTS.out,
+  name: null,
+  icon: null,
+  width: 1280,
+  height: 800,
+  minWidth: 0,
+  minHeight: 0,
+  maximize: true,
+  tray: true,
+  devTools: false,
+  platform: getPlatform(),
+  architecture: getArchitecture(),
+  type: 'package',
+  fastQuit: false,
+  fullscreen: false,
+  showMenubar: false,
+  singleInstance: true,
+  clearCache: false,
+  insecure: false,
+  hideWindowFrame: false,
+  counter: false,
+  bounce: false,
+  disableContextMenu: false,
+  userAgent: '',
+  version: '1.0.0',
+  buildVersion: '',
+  copyright: `Copyright © ${new Date(Date.now()).getFullYear()}`,
+  author: '',
+  license: 'MIT',
+
+};
