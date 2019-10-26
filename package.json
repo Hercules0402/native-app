@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This project allows to create a web app into a desktop app.",
   "main": "index.js",
-  "module": "main.js",
+  "module": "src/main.js",
   "bin": {
     "native-app": "bin/native-app"
   },
